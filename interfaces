@@ -1,0 +1,11 @@
+source /etc/network/interfaces.d/*
+
+auto lo
+auto eth0
+iface lo inet loopback
+
+allow-hotplug eth0
+iface eth0 inet static
+address 100.101.6.5
+netmask 255.255.0.0
+gateway 100.101.255.254
