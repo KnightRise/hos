@@ -1,0 +1,7 @@
+alias qq='service networking restart'
+
+alias vh='vi /hive-config/rig.conf'
+
+alias vr='vi /etc/rc.local'
+
+alias th='mv /hos/interfaces /etc/network/interfaces'
